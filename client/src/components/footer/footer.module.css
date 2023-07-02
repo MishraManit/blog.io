@@ -1,0 +1,57 @@
+footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 10rem;
+    background-color: rgb(226, 171, 102);
+    
+}
+
+.wrapper{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.col > h2{
+    margin-bottom: 15px;
+    justify-self: flex-start;
+    margin-left: -5px;
+}
+
+.col > p{
+    max-width: 425px;
+    color: #555;
+    font-size: 15px;
+    
+}
+.colimg{
+    display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.colimg  img{
+   
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+   
+   
+}
+.colimg a {
+    
+    text-decoration: none;
+    
+}
+.colimg a  :hover{
+color: rgb(9, 20, 242);
+}

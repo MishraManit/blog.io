@@ -1,0 +1,181 @@
+
+.container {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #1606f6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.left a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f5f4f4;
+}
+.left :hover{
+  color: #ff7f50;
+}
+
+.reddot {
+
+  position: relative;
+   
+ margin-top: -20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border-width: 1px;
+  border-color: rgb(9, 13, 245);
+  height: 20px;
+  width: 20px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.listItem {
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #f5f4f4;
+  transition: color 0.3s ease;
+}
+
+.listItem:hover {
+  color: #ff7f50;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  color: #f5f4f4;
+}
+.right :hover{
+  color: #ff7f50;
+}
+.right a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+ 
+}
+
+.modal {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 150px;
+  overflow: hidden;
+  
+}
+
+.modal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modal ul li {
+  padding: 10px;
+}
+
+.modal ul li:hover {
+  background-color: #f1f1f1;
+}
+
+.modal ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+@media (max-width: 768px) {
+  .modal {
+    top: 70px;
+    right: 10px;
+    width: auto;
+    max-width: 200px;
+  }
+
+  .modal ul li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .modal ul li a {
+    display: block;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+
+  .center {
+    display: none;
+  }
+
+  .right a {
+    display: none;
+  }
+
+  .username {
+    display: none;
+  }
+
+  .img {
+    margin-right: 10px;
+  }
+}

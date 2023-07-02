@@ -1,0 +1,140 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .goBack {
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .goBack svg {
+    margin-right: 0.5rem;
+  }
+  
+  .wrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .titleAndControls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit{
+    color: #039f05;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .delete {
+    color: #b60202;
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .like {
+    color: #292828;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .descAndLikesViews {
+    margin-bottom: 1rem;
+  }
+  
+  .desc {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .desc span {
+    font-weight: bold;
+  }
+  
+  .likesAndViews {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #f79d9d;
+    margin-top: 0.5rem;
+  }
+  
+  .authorAndCreatedAt {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 0.5rem;
+  }
+  
+  .authorAndCreatedAt span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .authorAndCreatedAt span span {
+    font-weight: bold;
+    margin-right: 0.2rem;
+  }
+  
+  .footer {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    text-align: center;
+    color: #999;
+  }
+  
+
+  .placeholder-image {
+    width: 100%; /* Set the width as needed */
+    height: auto; /* Preserve the aspect ratio */
+    background-color: #f0f0f0; /* Set the background color */
+    border-radius: 4px; /* Apply border radius if desired */
+  }
+  
+  .placeholder-image::before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* Set the aspect ratio for the placeholder */
+  }
+  
+  .placeholder-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; /* Adjust the font size as desired */
+    color: #555; /* Set the color for the placeholder text */
+  }
+  
